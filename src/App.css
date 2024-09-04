@@ -5,31 +5,31 @@
 
 body {
   background-color: black;
-  font-family: Arial, Helvetica, sans-serif sans-serif;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px;
 }
 
 .container {
   background-color: #1A1B21;
   color: white;
-  width: 317px;
-  height: 950px;
+  width: 321px;
+  height: 740px;
   border-radius: 20px;
   text-align: center;
   position: relative;
 }
 
 .image {
-  width: 316px;
+  width: 321px;
+  height: 250px;
 }
 
 h1 {
-  font-size: 2rem;
-  margin-top: 35px;
+  font-size: 1.8rem;
+  margin-top: 10px;
 }
 
 .profile {
@@ -38,7 +38,7 @@ h1 {
 }
 
 .buttons {
-  margin-top: 29px;
+  margin-top: 10px;
   font-weight: 700;
 }
 
@@ -48,7 +48,14 @@ h1 {
   height: 34px;
   border: none;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+
+#mail-img,
+#linkedin-icon {
+  vertical-align: middle;
+  padding: 2px;
 }
 
 .linkedin {
@@ -58,19 +65,19 @@ h1 {
 
 main {
   text-align: left;
-  margin-left: 20px;
-  margin-top: 25px;
+ 
+  padding: 15px;
 }
 
 h2 {
-  font-size: 1.7rem;
- padding: 12px 0 12px 0;
+  font-size: 1.5rem;
+ padding: 9px 0 9px 0;
 }
 
 main > p {
- font-size: 0.9rem;
+ font-size: 0.85rem;
  color: rgb(230, 219, 219);
- line-height: 28px;
+ line-height: 21px;
 }
 
 footer {
@@ -85,4 +92,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+footer > img {
+  cursor: pointer;
 }
